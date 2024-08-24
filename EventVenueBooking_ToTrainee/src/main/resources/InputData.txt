@@ -1,0 +1,122 @@
+The input data for date in sample JSON will change accordingly
+-------------------------------------------------------
+Valid Data for register customer for event booking
+-------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body: 
+	{   
+        "customerName": "Kenneth Seb",
+        "emailId": "kenneth@abc.com",
+        "eventDate": "2022-11-09",
+        "eventName": "Concert",
+        "eventDTO": {
+           
+            "venue": "Arena"
+            
+        }
+    }
+
+    
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+    {
+        
+        "customerName": null,
+        "emailId": null,
+        "eventDate": null,
+        "eventName": null
+	}
+	
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+  {
+        
+        "customerName": "adam",
+        "emailId": "adam@abc.com",
+        "eventDate": "2022-11-09",
+        "eventName": "Workshop",
+        "eventDTO": {
+           
+            "venue": "Academic venue"
+            
+        }
+	}        
+	
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+   {
+        "customerName": "Adam",
+        "emailId": "adam1pqr.com",
+        "eventDate": "2022-11-09",
+        "eventName": "Workshop",
+        "eventDTO": {
+           
+            "venue": "Academic venue"
+            
+        }
+    }
+    
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+	{
+    	"customerName": "Kenneth Seb",
+        "emailId": "kenneth@abc.com",
+        "eventDate": "2022-11-09",
+        "eventName": "Exhibition",
+        "eventDTO": {
+           
+            "venue": "Arena"
+            
+        }
+     }
+     
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+	{
+    	"customerName": "Kenneth Seb",
+        "emailId": "kenneth@abc.com",
+        "eventDate": "2021-10-09",
+        "eventName": "Concert",
+        "eventDTO": {
+           
+            "venue": "Arena"
+            
+        }
+     }
+
+--------------------------------------------------------
+Invalid Data for register customer for event booking (Bean Validation)
+--------------------------------------------------------
+POST URL: http://localhost:1111/event-api/events
+Request Body:
+	{
+    	"customerName": "Kenneth Seb",
+        "emailId": "kenneth@abc.com",
+        "eventDate": "2022-11-09",
+        "eventName": "Workshop"
+	}
+	
+
+Valid Data for get customers details by event venue
+------------------------------------------------------
+GET URL: http://localhost:1111/event-api/events/Arena
+
+------------------------------------------------------
+Invalid Data for get customers by Job Designation
+------------------------------------------------------
+GET URL: http://localhost:1111/event-api/events/Restaurant

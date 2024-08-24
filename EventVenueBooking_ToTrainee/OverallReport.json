@@ -1,0 +1,96 @@
+{
+  "Code Analysis": {
+    "PMD": {
+      "PMD": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "Structural": {
+    "ExceptionHandler": {
+      "ErrorInfo": [
+        5,
+        5,
+        0
+      ],
+      "ExceptionControllerAdvice": [
+        9,
+        0,
+        9
+      ]
+    },
+    "Entity": {
+      "Customer": [
+        20,
+        13,
+        7
+      ],
+      "Event": [
+        12,
+        9,
+        3
+      ]
+    },
+    "Repository": {
+      "CustomerRepository": [
+        1,
+        0,
+        1
+      ],
+      "EventRepository": [
+        1,
+        0,
+        1
+      ]
+    },
+    "LoggingAspect": {
+      "LoggingAspect": [
+        5,
+        1,
+        4
+      ]
+    },
+    "JUnit": {
+      "EventVenueBookingApplicationTests": [
+        7,
+        1,
+        6
+      ]
+    },
+    "Service": {
+      "EventServiceImpl": [
+        7,
+        3,
+        4
+      ]
+    },
+    "API": {
+      "EventAPI": [
+        14,
+        3,
+        11
+      ]
+    },
+    "DTO": {
+      "CustomerDTO": [
+        23,
+        14,
+        9
+      ],
+      "EventDTO": [
+        10,
+        10,
+        0
+      ]
+    },
+    "Exception": {
+      "EventVenueBookingException": [
+        2,
+        2,
+        0
+      ]
+    }
+  }
+}

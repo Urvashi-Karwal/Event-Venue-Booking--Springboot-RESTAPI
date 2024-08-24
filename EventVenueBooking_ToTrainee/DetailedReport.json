@@ -1,0 +1,990 @@
+{
+  "Code Analysis": {
+    "PMD": {
+      "PMD": [
+        {
+          "cadre": "Code Analysis",
+          "group": "PMD",
+          "testClass": "PMD",
+          "testCaseID": "CATC1-PMD.codingStandards",
+          "testCaseName": "Verifying the code for adherence to coding standards",
+          "result": "Fail"
+        }
+      ]
+    }
+  },
+  "Structural": {
+    "ExceptionHandler": {
+      "ErrorInfo": [
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ErrorInfo",
+          "testCaseID": "STC1-ErrorInfo.getErrorMessage",
+          "testCaseName": "Verifying the structure of getErrorMessage",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ErrorInfo",
+          "testCaseID": "STC2-ErrorInfo.setErrorMessage",
+          "testCaseName": "Verifying the structure of setErrorMessage",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ErrorInfo",
+          "testCaseID": "STC3-ErrorInfo.getErrorCode",
+          "testCaseName": "Verifying the structure of getErrorCode",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ErrorInfo",
+          "testCaseID": "STC4-ErrorInfo.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ErrorInfo",
+          "testCaseID": "STC5-ErrorInfo.setErrorCode",
+          "testCaseName": "Verifying the structure of setErrorCode",
+          "result": "Pass"
+        }
+      ],
+      "ExceptionControllerAdvice": [
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC1-ExceptionControllerAdvice.eventVenueBookingExceptionHandler",
+          "testCaseName": "Verifying the structure of eventVenueBookingExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC2-ExceptionControllerAdvice.generalExceptionHandler",
+          "testCaseName": "Verifying the structure of generalExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC3-ExceptionControllerAdvice.eventVenueBookingExceptionHandler",
+          "testCaseName": "Verifying the structure of eventVenueBookingExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC4-ExceptionControllerAdvice.validatorExceptionHandler",
+          "testCaseName": "Verifying the structure of validatorExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC5-ExceptionControllerAdvice.attribute",
+          "testCaseName": "Verifying the structure of attribute",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC6-ExceptionControllerAdvice.validatorExceptionHandler",
+          "testCaseName": "Verifying the structure of validatorExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC7-ExceptionControllerAdvice.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC8-ExceptionControllerAdvice.generalExceptionHandler",
+          "testCaseName": "Verifying the structure of generalExceptionHandler",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "ExceptionHandler",
+          "testClass": "ExceptionControllerAdvice",
+          "testCaseID": "STC9-ExceptionControllerAdvice.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        }
+      ]
+    },
+    "Entity": {
+      "Customer": [
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC1-Customer.getCustomerId",
+          "testCaseName": "Verifying the structure of getCustomerId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC2-Customer.getCustomerName",
+          "testCaseName": "Verifying the structure of getCustomerName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC3-Customer.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC4-Customer.setCustomerId",
+          "testCaseName": "Verifying the structure of setCustomerId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC5-Customer.setCustomerName",
+          "testCaseName": "Verifying the structure of setCustomerName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC6-Customer.getEmailId",
+          "testCaseName": "Verifying the structure of getEmailId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC7-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC8-Customer.getEventDate",
+          "testCaseName": "Verifying the structure of getEventDate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC9-Customer.getEventName",
+          "testCaseName": "Verifying the structure of getEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC10-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC11-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC12-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC13-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC14-Customer.setEmailId",
+          "testCaseName": "Verifying the structure of setEmailId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC15-Customer.setEvent",
+          "testCaseName": "Verifying the structure of setEvent",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC16-Customer.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC17-Customer.setEventDate",
+          "testCaseName": "Verifying the structure of setEventDate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC18-Customer.setEventName",
+          "testCaseName": "Verifying the structure of setEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC19-Customer.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Customer",
+          "testCaseID": "STC20-Customer.getEvent",
+          "testCaseName": "Verifying the structure of getEvent",
+          "result": "Pass"
+        }
+      ],
+      "Event": [
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC1-Event.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC2-Event.getSlotAvailable",
+          "testCaseName": "Verifying the structure of getSlotAvailable",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC3-Event.getEventId",
+          "testCaseName": "Verifying the structure of getEventId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC4-Event.getEventName",
+          "testCaseName": "Verifying the structure of getEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC5-Event.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC6-Event.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC7-Event.setSlotAvailable",
+          "testCaseName": "Verifying the structure of setSlotAvailable",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC8-Event.setVenue",
+          "testCaseName": "Verifying the structure of setVenue",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC9-Event.setEventName",
+          "testCaseName": "Verifying the structure of setEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC10-Event.setEventId",
+          "testCaseName": "Verifying the structure of setEventId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC11-Event.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Entity",
+          "testClass": "Event",
+          "testCaseID": "STC12-Event.getVenue",
+          "testCaseName": "Verifying the structure of getVenue",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Repository": {
+      "CustomerRepository": [
+        {
+          "cadre": "Structural",
+          "group": "Repository",
+          "testClass": "CustomerRepository",
+          "testCaseID": "STC1-CustomerRepository.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Fail"
+        }
+      ],
+      "EventRepository": [
+        {
+          "cadre": "Structural",
+          "group": "Repository",
+          "testClass": "EventRepository",
+          "testCaseID": "STC1-EventRepository.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Fail"
+        }
+      ]
+    },
+    "LoggingAspect": {
+      "LoggingAspect": [
+        {
+          "cadre": "Structural",
+          "group": "LoggingAspect",
+          "testClass": "LoggingAspect",
+          "testCaseID": "STC1-LoggingAspect.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "LoggingAspect",
+          "testClass": "LoggingAspect",
+          "testCaseID": "STC2-LoggingAspect.logServiceException",
+          "testCaseName": "Verifying the structure of logServiceException",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "LoggingAspect",
+          "testClass": "LoggingAspect",
+          "testCaseID": "STC3-LoggingAspect.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "LoggingAspect",
+          "testClass": "LoggingAspect",
+          "testCaseID": "STC4-LoggingAspect.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "LoggingAspect",
+          "testClass": "LoggingAspect",
+          "testCaseID": "STC5-LoggingAspect.logServiceException",
+          "testCaseName": "Verifying the structure of logServiceException",
+          "result": "Pass"
+        }
+      ]
+    },
+    "JUnit": {
+      "EventVenueBookingApplicationTests": [
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC1-EventVenueBookingApplicationTests.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC2-EventVenueBookingApplicationTests.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC3-EventVenueBookingApplicationTests.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC4-EventVenueBookingApplicationTests.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC5-EventVenueBookingApplicationTests.getCustomerByEventVenueNoCustomerFoundTest",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenueNoCustomerFoundTest",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC6-EventVenueBookingApplicationTests.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "EventVenueBookingApplicationTests",
+          "testCaseID": "STC7-EventVenueBookingApplicationTests.registerCustomerEventVenueBookingClosedTest",
+          "testCaseName": "Verifying the structure of registerCustomerEventVenueBookingClosedTest",
+          "result": "Fail"
+        }
+      ]
+    },
+    "Service": {
+      "EventServiceImpl": [
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC1-EventServiceImpl.getCustomerByEventVenue",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenue",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC2-EventServiceImpl.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC3-EventServiceImpl.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC4-EventServiceImpl.registerCustomer",
+          "testCaseName": "Verifying the structure of registerCustomer",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC5-EventServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC6-EventServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "EventServiceImpl",
+          "testCaseID": "STC7-EventServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        }
+      ]
+    },
+    "API": {
+      "EventAPI": [
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC1-EventAPI.getCustomerByEventVenue",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenue",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC2-EventAPI.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC3-EventAPI.getCustomerByEventVenue",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenue",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC4-EventAPI.getCustomerByEventVenue",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenue",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC5-EventAPI.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC6-EventAPI.registerCustomer",
+          "testCaseName": "Verifying the structure of registerCustomer",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC7-EventAPI.registerCustomer",
+          "testCaseName": "Verifying the structure of registerCustomer",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC8-EventAPI.registerCustomer",
+          "testCaseName": "Verifying the structure of registerCustomer",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC9-EventAPI.registerCustomer",
+          "testCaseName": "Verifying the structure of registerCustomer",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC10-EventAPI.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC11-EventAPI.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC12-EventAPI.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC13-EventAPI.getCustomerByEventVenue",
+          "testCaseName": "Verifying the structure of getCustomerByEventVenue",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "API",
+          "testClass": "EventAPI",
+          "testCaseID": "STC14-EventAPI.annotations",
+          "testCaseName": "Verifying the structure of annotations",
+          "result": "Fail"
+        }
+      ]
+    },
+    "DTO": {
+      "CustomerDTO": [
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC1-CustomerDTO.setEventDTO",
+          "testCaseName": "Verifying the structure of setEventDTO",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC2-CustomerDTO.getEventDTO",
+          "testCaseName": "Verifying the structure of getEventDTO",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC3-CustomerDTO.getCustomerId",
+          "testCaseName": "Verifying the structure of getCustomerId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC4-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC5-CustomerDTO.getCustomerName",
+          "testCaseName": "Verifying the structure of getCustomerName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC6-CustomerDTO.setCustomerId",
+          "testCaseName": "Verifying the structure of setCustomerId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC7-CustomerDTO.setCustomerName",
+          "testCaseName": "Verifying the structure of setCustomerName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC8-CustomerDTO.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC9-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC10-CustomerDTO.getEmailId",
+          "testCaseName": "Verifying the structure of getEmailId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC11-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC12-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC13-CustomerDTO.getEventDate",
+          "testCaseName": "Verifying the structure of getEventDate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC14-CustomerDTO.getEventName",
+          "testCaseName": "Verifying the structure of getEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC15-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC16-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC17-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC18-CustomerDTO.setEmailId",
+          "testCaseName": "Verifying the structure of setEmailId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC19-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC20-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC21-CustomerDTO.setEventDate",
+          "testCaseName": "Verifying the structure of setEventDate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC22-CustomerDTO.setEventName",
+          "testCaseName": "Verifying the structure of setEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "CustomerDTO",
+          "testCaseID": "STC23-CustomerDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail"
+        }
+      ],
+      "EventDTO": [
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC1-EventDTO.getSlotAvailable",
+          "testCaseName": "Verifying the structure of getSlotAvailable",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC2-EventDTO.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC3-EventDTO.getEventId",
+          "testCaseName": "Verifying the structure of getEventId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC4-EventDTO.getEventName",
+          "testCaseName": "Verifying the structure of getEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC5-EventDTO.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC6-EventDTO.setSlotAvailable",
+          "testCaseName": "Verifying the structure of setSlotAvailable",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC7-EventDTO.setVenue",
+          "testCaseName": "Verifying the structure of setVenue",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC8-EventDTO.setEventName",
+          "testCaseName": "Verifying the structure of setEventName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC9-EventDTO.setEventId",
+          "testCaseName": "Verifying the structure of setEventId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "DTO",
+          "testClass": "EventDTO",
+          "testCaseID": "STC10-EventDTO.getVenue",
+          "testCaseName": "Verifying the structure of getVenue",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Exception": {
+      "EventVenueBookingException": [
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "EventVenueBookingException",
+          "testCaseID": "STC1-EventVenueBookingException.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "EventVenueBookingException",
+          "testCaseID": "STC2-EventVenueBookingException.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        }
+      ]
+    }
+  }
+}
